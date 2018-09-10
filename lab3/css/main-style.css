@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #161616;
+}
+
+.page-div {
+	margin: 10px 100px 10px 100px;
+	background-color: #303030;
+}
+
+.header {
+	padding: 10px 40px 80px 40px;
+	background: url("../images/main-image.jpg") no-repeat 50% 60%;
+	background-size: cover;
+}
+
+.footer {
+	padding: 10px 40px 40px 40px;
+	background-color: #303030;
+	color: #666666;
+	text-align: right;
+}
+
+.main-div {
+	margin: 10px 100px 10px 100px;
+	padding: 10px 40px 10px 40px;
+	background-color: #303030;
+	font-family: serif;
+}
+
+.header h1 {
+	margin: 0;
+	color: #d3d3d3;
+	-webkit-text-stroke: 3px #303030;
+	font-family: fantasy;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+h2 {
+	color: #d3d3d3;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+h3 {
+	margin: 12px;
+	color: #aaaaaa;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+p {
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.about-text {
+	color: #666666;
+}
+
+.main-word {
+	color: #8c8c8c;
+	font-weight: bold;
+}
+
+.map-div {
+	padding: 10px 40px 10px 40px;
+}
+
+.map-img {
+	display: flex;
+    justify-content: center;
+}
+
+a.back-to-main {
+	display: table;
+	margin: 20px 0 0 0;
+	color: #d3d3d3;
+	font-size: 20px;
+}
+
+a.back-to-main:hover {
+	color: #666666;
+}
+
+a.back-to-main:active {
+	color: #4c4c4c;
+}
